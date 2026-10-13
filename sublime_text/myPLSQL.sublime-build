@@ -1,0 +1,20 @@
+{
+    // "target": "terminus_exec",
+    // "cancel": "terminus_cancle_build",
+    // "auto_close": false,
+
+    "cmd": [
+        "C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin\\sqlplus.exe",
+        "-S",
+        "system/0077Orac2@localhost:1521/XE",  // Exemple de connexion
+        // "username/password@localhost:1521/XE", // en generale
+        "@$file",
+        // "SET SERVEROUTPUT ON;",
+        // "EXIT"
+    ],
+    "selector": "source.sql",
+    // "working_dir": "${file_path}"
+    // "working_dir": "${file_path:${folder}}"
+    // "focus": true
+    "shell": true
+}

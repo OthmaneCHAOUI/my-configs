@@ -1,0 +1,4 @@
+{
+	"cmd": ["C:\\wamp64\\bin\\mysql\\mysql8.3.0\\bin\\mysql.exe", "-u", "root", "-e", "source $file", "-t"],
+	"selector": "source.sql"
+}

@@ -1,0 +1,30 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"Alignment",
+		"BracketHighlighter",
+		"Git",
+		"Github Color Theme",
+		"GitHub Theme",
+		"HTML-CSS-JS Prettify",
+		"MarkdownPreview",
+		"Package Control",
+		"PowerShell",
+		"SideBarEnhancements",
+		"SQLPlus",
+		"SublimeCodeIntel",
+		"SublimeREPL",
+		"Tabnine",
+		"Terminal",
+		"Terminus",
+	],
+	"channels":
+	[
+		"https://packagecontrol.io/channel_v3.json"
+	],
+}

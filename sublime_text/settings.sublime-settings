@@ -1,0 +1,25 @@
+{
+	"theme": "GitHub Dark.sublime-theme",
+	"color_scheme": "GitHub Dark High Contrast.sublime-color-scheme",
+	"font_size": 10,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"enable_tab_scrolling": false,
+	"show_tab_close_buttons": false,
+	"hide_new_tab_button": true,
+	"show_encoding": true,
+	"close_deleted_files": false,
+	"show_errors_inline": true,
+	"ensure_newline_at_eof_on_save": false,
+	"save_on_focus_lost": true,
+	"match_brackets": true,
+	"index_files": true,
+	"auto_complete": true,
+	"hide_pointer_while_typing": true,
+	"remember_full_screen": true,
+	"remember_workspace": false,
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+}
