@@ -1,0 +1,3 @@
+# My configurations
+
+A simple repo for my personal work environment configurations; like vscode, neovim, intellji...
