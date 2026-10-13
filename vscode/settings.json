@@ -1,0 +1,180 @@
+{
+  "files.autoSave": "afterDelay",
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+  "editor.occurrencesHighlight": "off",
+  "editor.codeActionsOnSave": {},
+  "workbench.iconTheme": "vscode-icons",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "terminal.integrated.focusAfterRun": "terminal",
+  "code-runner.runInTerminal": true,
+  "tabnine.experimentalAutoImports": true,
+  "terminal.integrated.cursorBlinking": true,
+  "redhat.telemetry.enabled": false,
+  "workbench.startupEditor": "none",
+  "workbench.editorAssociations": {
+    "*.copilotmd": "vscode.markdown.preview.editor",
+    "*.docx": "cweijan.officeViewer",
+    "*.pdf": "pdf.preview",
+    "*.jar": "jar.contentView",
+    "*.md": "default",
+    "*.doc": "default",
+    "*.csv": "default"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "editor.formatOnPaste": true,
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "mssql.enableQueryHistoryCapture": true,
+  "mssql.objectExplorer.groupBySchema": false,
+  "[sql]": {
+    "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
+  },
+  "workbench.activityBar.location": "top",
+  "editor.renderWhitespace": "none",
+  "settingsSync.ignoredExtensions": ["faiztechnics.sqlplus-runner"],
+  "extensions.autoUpdate": "off",
+  "hediet.vscode-drawio.resizeImages": null,
+  "[dtd]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "hediet.vscode-drawio.theme": "kennedy",
+  "editor.stickyScroll.enabled": false,
+  "editor.codeActionWidget.showHeaders": false,
+  "hediet.vscode-drawio.appearance": "light",
+  "[css]": {
+    "editor.defaultFormatter": "michelemelluso.code-beautifier"
+  },
+  "explorer.confirmDelete": false,
+  "editor.guides.highlightActiveBracketPair": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[php]": {
+    "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
+  },
+  "editor.bracketPairColorization.enabled": false,
+  "C_Cpp.commentContinuationPatterns": [
+
+
+    "/**"
+  ],
+  "liveServer.settings.donotShowInfoMsg": true,
+  "breadcrumbs.enabled": false,
+  "liveshare.autoShareTerminals": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "vscode-office.openOutline": false,
+  "vscode-office.editorTheme": "Github Dark",
+  "github.copilot.enable": {
+    "*": false
+  },
+  "leetcode.workspaceFolder": "C:\\Users\\ottom\\.leetcode",
+  "leetcode.defaultLanguage": "cpp",
+  "window.newWindowProfile": "Default",
+  "workbench.colorCustomizations": {},
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "workbench.panel.showLabels": false,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "terminal.integrated.stickyScroll.enabled": false,
+  "editor.overtypeCursorStyle": "line",
+  "editor.cursorStyle": "block",
+  "editor.cursorWidth": 1,
+
+  // settings from school for java
+  "redhat.telemetry.enabled": null,
+  "java.help.showReleaseNotes": false,
+  "java.debug.settings.onBuildFailureProceed": true,
+  "chat.tips.enabled": false,
+  "makefile.configureOnOpen": false,
+  "git.blame.statusBarItem.enabled": false,
+  // "workbench.colorTheme": "Kimbie Dark"
+
+		"todohighlight.keywords": [
+		{
+			"text": "DONE",
+			"color": "#fff",
+			"backgroundColor": "#2abdff",
+			"overviewRulerColor": "rgba(42,189,255,0.8)"
+		},
+		{
+			"text": "FIXED",
+			"color": "#fff",
+			"backgroundColor": "#2affbd",
+			"overviewRulerColor": "rgba(42,255,189,0.8)"
+		},
+		{
+			"text": "TODO",
+			"color": "#fff",
+			"backgroundColor": "#ffbd2a",
+			"overviewRulerColor": "rgba(255,189,42,0.8)"
+		},
+		{
+			"text": "FIXME",
+			"color": "#fff",
+			"backgroundColor": "#f06292",
+			"overviewRulerColor": "rgba(240,98,146,0.8)"
+		}
+	],
+
+
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|\\*\\s|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+  "todo-tree.ripgrep.ripgrep": "/usr/share/code/resources/app/node_modules.asar.unpacked/@vscode/ripgrep-universal/bin/linux-x64/rg",
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]",
+    "FIXED",
+    "DONE"
+  ],
+  "todo-tree.highlights.backgroundColourScheme": [
+      "red",
+      "orange",
+      "yellow",
+      "green",
+      "blue",
+      "indigo",
+      "violet",
+      "blue",
+      "green"
+  ],
+  "todo-tree.highlights.foregroundColourScheme": [
+      "white",
+      "black",
+      "black",
+      "white",
+      "white",
+      "white",
+      "black",
+      "white",
+      "white"
+  ],
+  "todo-tree.highlights.enabled": false, // play nice with TODO highlights extension
+  "todo-tree.filtering.ignoreGitSubmodules": true,
+  "todo-tree.general.tagGroups": {
+      "FIXME" :["FIXME", "TODO"],
+      "DONE" :["DONE", "FIXED"]
+  },
+  "editor.minimap.enabled": false,
+  "workbench.statusBar.visible": false,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "chat.viewSessions.orientation": "stacked",
+
+}
