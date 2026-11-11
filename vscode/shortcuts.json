@@ -52,16 +52,6 @@
   //   "command": "code-runner.run"
   // },
   {
-    "key": "ctrl+k",
-    "command": "editor.action.deleteLines",
-    "when": "textInputFocus && !editorReadonly"
-  },
-  {
-    "key": "ctrl+shift+k",
-    "command": "-editor.action.deleteLines",
-    "when": "textInputFocus && !editorReadonly"
-  },
-  {
     "key": "ctrl+n",
     "command": "welcome.showNewFileEntries"
   },
@@ -73,10 +63,6 @@
     "key": "ctrl+shift+d",
     "command": "-workbench.view.debug",
     "when": "viewContainer.workbench.view.debug.enabled"
-  },
-  {
-    "key": "ctrl+shift+d",
-    "command": "editor.action.duplicateSelection"
   },
   {
     "key": "ctrl+shift+enter",
@@ -374,6 +360,18 @@
   {
     "key": "ctrl+k ctrl+s",
     "command": "-workbench.action.openGlobalKeybindings"
+  },
+  {
+    "key": "ctrl+alt+b",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "ctrl+alt+b",
+    "command": "-workbench.action.toggleAuxiliaryBar"
+  },
+  {
+    "key": "ctrl+shift+d",
+    "command": "editor.action.duplicateSelection"
   },
 
 

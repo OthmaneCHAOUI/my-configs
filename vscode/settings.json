@@ -16,12 +16,15 @@
   "workbench.startupEditor": "none",
   "workbench.editorAssociations": {
     "*.copilotmd": "vscode.markdown.preview.editor",
+    "{git,gitlens,chat-editing-snapshot-text-model,copilot,git-graph,git-graph-3}:/**/*.qrc": "default",
+    "{git,gitlens,chat-editing-snapshot-text-model,copilot,git-graph,git-graph-3}:/**/*.ui": "default",
     "*.docx": "cweijan.officeViewer",
     "*.pdf": "pdf.preview",
     "*.jar": "jar.contentView",
     "*.md": "default",
     "*.doc": "default",
-    "*.csv": "default"
+    "*.csv": "default",
+    "*.qrc": "qt-core.qrcEditor"
   },
   "explorer.confirmDragAndDrop": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -53,7 +56,7 @@
   "editor.codeActionWidget.showHeaders": false,
   "hediet.vscode-drawio.appearance": "light",
   "[css]": {
-    "editor.defaultFormatter": "michelemelluso.code-beautifier"
+    "editor.defaultFormatter": "vscode.css-language-features"
   },
   "explorer.confirmDelete": false,
   "editor.guides.highlightActiveBracketPair": false,
@@ -77,9 +80,6 @@
   },
   "vscode-office.openOutline": false,
   "vscode-office.editorTheme": "Github Dark",
-  "github.copilot.enable": {
-    "*": false
-  },
   "leetcode.workspaceFolder": "C:\\Users\\ottom\\.leetcode",
   "leetcode.defaultLanguage": "cpp",
   "window.newWindowProfile": "Default",
@@ -88,7 +88,6 @@
     "editor.defaultFormatter": "ms-python.black-formatter"
   },
   "workbench.panel.showLabels": false,
-  "github.copilot.nextEditSuggestions.enabled": true,
   "terminal.integrated.stickyScroll.enabled": false,
   "editor.overtypeCursorStyle": "line",
   "editor.cursorStyle": "block",
@@ -173,8 +172,11 @@
       "DONE" :["DONE", "FIXED"]
   },
   "editor.minimap.enabled": false,
-  "workbench.statusBar.visible": false,
-  "editor.acceptSuggestionOnCommitCharacter": false,
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
   "chat.viewSessions.orientation": "stacked",
+  "workbench.statusBar.visible": false,
+  "extensions.ignoreRecommendations": true,
 
 }
